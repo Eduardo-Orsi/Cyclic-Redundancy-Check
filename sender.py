@@ -21,7 +21,7 @@ print("Dado em binário :", binary)
 
 # Faz a codificação do binário junto com a chave do CRC
 key = '1001'
-binario =  encode_dado(input_string, key)
+binario =  encode_dado(binary, key)
 
 # Envio o dados em binário para o receiver
 print("Dado a ser enviado ao receptor: ", binario)
